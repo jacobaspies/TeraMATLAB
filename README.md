@@ -9,4 +9,4 @@ The following is a collection of scripts for performing THz measurements using s
 - Thorlabs BBD30X controller for DDS direct-drive delay stages
 
 # References
-1.) Tayvah, U. T.; Spies, J. A.; Neu, J.; Schmuttenmaer, C. A. _Anal. Chem._ **2021**, _93_, 11243-11250.
+1.) Tayvah, U. T.; Spies, J. A.; Neu, J.; Schmuttenmaer, C. A. "Nelly: A User-Friendly and Open-Source Implementation of Tree-Based Complex Refractive Index Analysis for Terahertz Spectroscopy" _Anal. Chem._ **2021**, _93_, 11243-11250.
