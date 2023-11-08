@@ -1,6 +1,8 @@
 # TeraMATLAB
 The following is a collection of scripts for performing THz measurements using script-based acquisition in MATLAB. In-line data processing utilizes function that are distributed in THz data processing package "Nelly" ( https://github.com/YaleTHz/nelly ) and should be installed in the path of data acquisition codes.[1]
 
+Data acquisition scripts were originally developed in MATLAB 2018b and have been deployed in the newest version (MATLAB 2023b).
+
 # Currently Supported Hardware
 - Stanford Research Systems SR810/SR830 Lock-in amplifier
   - Communication using one of the following USB-GPIB adapters:
