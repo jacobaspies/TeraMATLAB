@@ -5,7 +5,7 @@ Data acquisition scripts were originally developed in MATLAB 2020b and have been
 
 # Currently Supported Hardware
 - Stanford Research Systems SR810/SR830 Lock-in amplifier
-  - Communication via USB-GPIB using on of the following adapters:
+  - Communication via USB-GPIB with one of the following adapters:
     - Agilent/Keysight 82357B
     - National Instruments GPIHB-USB-HS
 - Thorlabs BBD30X controller for DDS direct-drive delay stages
