@@ -14,6 +14,10 @@ Data acquisition scripts were originally developed in MATLAB 2020b and have been
 # Hardware Support In Development
 - Zaber X-MCC series multi-axis universal controller
   - Communcation via ethernet
+- Thorlabs K10CR1 motorized rotation mount
+  - Communication via USB
+- Thorlabs M30X motorized linear translation stage
+  - Communication via USB
 
 # References
 1.) Neu, J.; Schmuttenmaer, C. A. "Tutorial: An Introduction to Terahertz Time-Domain Spectroscopy (THz-TDS)" _J. Appl. Phys._ **2018**, _124_, 231101.
