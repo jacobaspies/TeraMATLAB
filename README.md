@@ -18,16 +18,18 @@ Measurements are run through scripts found in [measurement_scripts] using functi
 # Hardware Support In Development
 - Thorlabs K10CR1 motorized rotation mount
   - Communication via USB
+  - Code is available, but not deployed in the main package.
 - Thorlabs M30X motorized linear translation stage
   - Communication via USB
+  - Code is available, but not deployed in the main package.
  
 # Application Programming Interface
 - measurement_scripts
-  - run_thz_tds
-  - run_linescan
+  - run_thz_tds.m
+  - run_linescan.m
 - acquisition
-  - step_acquisition_lock_in
-  - line_scan_lock_in
+  - step_acquisition_lock_in.m
+  - line_scan_lock_in.m
 - initialization/disconnect
 - utilities
 
