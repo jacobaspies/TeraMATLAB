@@ -9,7 +9,7 @@ Measurements are run through scripts found in [measurement_scripts] using functi
 - Stanford Research Systems SR810/SR830 Lock-in amplifier
   - Communication via USB-GPIB with one of the following adapters:
     - Agilent/Keysight 82357B
-    - National Instruments GPIHB-USB-HS
+    - National Instruments GPIB-USB-HS
   - Currently implemented using [instrfind] and [gpib], which will be discontinued in later versions of MATLAB. Communication via [visadev] in development.
 - Thorlabs BBD30X controller for DDS direct-drive delay stages
   - Communication via USB
