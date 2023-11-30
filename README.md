@@ -26,8 +26,8 @@ Measurements are run through scripts found in [measurement_scripts] using functi
  
 # Application Programming Interface
 - measurement_scripts/
-  - run_thz_tds
-  - run_linescan
+  - run_probe_step
+  - run_line_scan
 - acquisition/
   - step_acquisition_lock_in
   - line_scan_lock_in
@@ -45,6 +45,8 @@ Measurements are run through scripts found in [measurement_scripts] using functi
     - get_sample_rate
     - get_sensitivity
     - get_time_constant
+  - move_thorlabs_stage
+  - move_zaber_stage
   - ps_to_mm
   - save_data
   - write_THz_metadata
