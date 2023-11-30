@@ -3,6 +3,8 @@ The following is a collection of scripts for performing THz measurements[1,2] us
 
 Data acquisition scripts were developed in MATLAB 2020b and have been deployed in the newest version (MATLAB 2023b).
 
+Measurements are run through scripts found in [measurement_scripts] using functions to initialize and run step acquisition measurements.
+
 # Currently Supported Hardware
 - Stanford Research Systems SR810/SR830 Lock-in amplifier
   - Communication via USB-GPIB with one of the following adapters:
