@@ -1,5 +1,5 @@
 # TeraMATLAB
-The following is a collection of scripts for performing THz measurements[1,2] using script-based acquisition in MATLAB. In-line data processing utilizes function that are distributed in THz data processing package "Nelly" (https://github.com/YaleTHz/nelly) and should be installed in the path with data acquisition codes.[3]
+The following is a collection of scripts for performing THz measurements[1,2] using script-based acquisition in MATLAB. In-line data processing will utilize functions that are distributed in THz data processing package "Nelly" (https://github.com/YaleTHz/nelly) in future iterations and should be installed in the path with data acquisition codes.[3]
 
 Data acquisition scripts were developed in MATLAB 2020b and have been deployed in the newest version (MATLAB 2023b).
 
