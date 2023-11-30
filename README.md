@@ -3,7 +3,7 @@ The following is a collection of scripts for performing THz measurements[1,2] us
 
 Data acquisition scripts were developed in MATLAB 2020b and have been deployed in the newest version (MATLAB 2023b).
 
-Measurements are run through scripts found in [measurement_scripts] using functions to initialize and run step acquisition measurements.
+Measurements are run through scripts found in [measurement_scripts] using functions to initialize and run step acquisition measurements. Averaging is performed within these scripts and there are functions for measurements found in [acquisition]. An [acquisition] function can be quit by pressing 'q' in the data acquisition window (Figure 1). Currently, stage movement commands are hard-coded in their device-specific, native syntax for speed.
 
 # Currently Supported Hardware
 - Stanford Research Systems SR810/SR830 Lock-in amplifier
