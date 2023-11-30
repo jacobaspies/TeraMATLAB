@@ -25,14 +25,29 @@ Measurements are run through scripts found in [measurement_scripts] using functi
   - Code is available, but not deployed in the main package.
  
 # Application Programming Interface
-- measurement_scripts
-  - run_thz_tds.m
-  - run_linescan.m
-- acquisition
-  - step_acquisition_lock_in.m
-  - line_scan_lock_in.m
-- initialization/disconnect
-- utilities
+- measurement_scripts/
+  - run_thz_tds
+  - run_linescan
+- acquisition/
+  - step_acquisition_lock_in
+  - line_scan_lock_in
+- init_disconnect/
+  - init_BBD30X
+  - init_lock_in
+  - init_zaber_controller
+  - init_zaber_stage
+  - disconnect_BBD30X
+  - disconnect_lock_in
+  - disconnect_zaber
+- utilities/
+  - lock_in/
+    - get_phase
+    - get_sample_rate
+    - get_sensitivity
+    - get_time_constant
+  - ps_to_mm
+  - save_data
+  - write_THz_metadata
 
 # References
 1.) Neu, J.; Schmuttenmaer, C. A. "Tutorial: An Introduction to Terahertz Time-Domain Spectroscopy (THz-TDS)" _J. Appl. Phys._ **2018**, _124_, 231101.
